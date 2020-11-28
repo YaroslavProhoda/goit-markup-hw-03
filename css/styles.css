@@ -1,0 +1,180 @@
+/* Палитра цветов */
+/* Цвет боди #E5E5E5 */
+/* Цвет фона #FFFFFF */
+/* Цвет заголовка #212121 */
+/* Цвет основного текста #757575 */
+/* Цвет акцента #2196F3 */
+/* Вторичный фон кнопок #F5F4FA */
+/* Цвет текста адреса в подвале rgba(255, 255, 255, 0.6) */
+
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  --accent-color: #2196f3;
+  --bg-color: #ffffff;
+  --secondary-buttons-bg: #f5f4fa;
+}
+.body-page {
+  background-color: #e5e5e5;
+  color: var(--primary-text-color);
+  font-family: Roboto, "Times New Roman", Times, serif;
+}
+.logo-link {
+  color: var(--title-text-color);
+  background-color: var(--bg-color);
+  font-family: Raleway, "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+.logo-head {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-link .logo-web {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+.nav-menu .nav-li.current {
+  color: var(--accent-color);
+}
+.nav-menu .nav-li {
+  color: var(--title-text-color);
+  background-color: var(--bg-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav-li:hover,
+.nav-li:focus {
+  color: var(--accent-color);
+  background-color: var(--bg-color);
+}
+.address-li {
+  color: var(--primary-text-color);
+  background-color: var(--bg-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.address-li:hover,
+.address-li:focus {
+  color: var(--accent-color);
+  background-color: var(--bg-color);
+}
+.hero-title {
+  color: var(--bg-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.features {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.features-text {
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.whatwedo-head {
+  color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.16;
+}
+.ourteam-head {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.members-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.members-text {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+}
+.footer-head {
+  color: var(--bg-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer-web {
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer-street {
+  color: var(--bg-color);
+}
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-mail-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.button.primary {
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+}
+.button.primary:hover {
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+}
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--secondary-buttons-bg);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.button.secondary:focus,
+.button.secondary:hover {
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+}
+.work-cards {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+.work-text {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+}
