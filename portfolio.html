@@ -12,45 +12,46 @@
 
 <body class="body-page">
     <!--Шапка-->
-    <header>
-        <a href="./index.html" class="logo-link">
-            <h1 class="logo-head"><span class="logo-web">Web</span>Studio</h1>
-        </a>
-        <nav>
-            <ul class="nav-menu list">
-                <li class="">
-                    <a href="./index.html" class="nav-li ">Студия</a>
+    <header class="header">
+        <div class="container">
+            <a href="./index.html" class="logo-link">
+                <h1 class="logo-head "><span class="logo-web">Web</span>Studio</h1>
+            </a>
+            <nav>
+                <ul class="nav-menu list">
+                    <li class="li-studio">
+                        <a href="./index.html" class="nav-li ">Студия</a>
+                    </li>
+                    <li class="li-portfolio">
+                        <a href="./portfolio.html" class="nav-li current">Портфолио</a>
+                    </li>
+                    <li class="li-contacts">
+                        <a href="" class="nav-li ">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="header-address list">
+                <li class="address-li-mail">
+                    <a href="mailto:info@devstudio.com" class="address-mail">info@devstudio.com</a>
                 </li>
-                <li class="">
-                    <a href="./portfolio.html" class="nav-li current">Портфолио</a>
-                </li>
-                <li class="">
-                    <a href="" class="nav-li ">Контакты</a>
+                <li class="address-li-tel">
+                    <a href="tel:+380961111111" class="address-tel">+38 096 111 11 11</a>
                 </li>
             </ul>
-        </nav>
-
-        <ul class="header-address list">
-            <li>
-                <a href="mailto:info@devstudio.com" class="address-li">info@devstudio.com</a>
-            </li>
-
-            <li>
-                <a href="tel:+380961111111" class="address-li">+38 096 111 11 11</a>
-            </li>
-        </ul>
-
+        </div>
     </header>
     <!--Основа-->
     <main>
         <!-- Фильтры -->
-        <section class="filters">
-            <h2>Фильтры</h2>
-            <button class="button secondary">Все</button>
-            <button class="button secondary">Веб-сайт</button>
-            <button class="button secondary">Приложения</button>
-            <button class="button secondary">Дизайн</button>
-            <button class="button secondary">Маркетинг</button>
+        <section class="filters-section">
+            <div class="filters-container">
+                <h2><span class="hidden-head">Фильтры</span></h2>
+                <button class="button secondary">Все</button>
+                <button class="button secondary">Веб-сайт</button>
+                <button class="button secondary">Приложения</button>
+                <button class="button secondary">Дизайн</button>
+                <button class="button secondary">Маркетинг</button>
+            </div>
         </section>
 
         <section class="our-works">
@@ -110,12 +111,14 @@
     <!--Подвал-->
     <footer class="footer">
         <section class="footer-section">
-            <h2 class="footer-head"><span class="footer-web">Web</span>Studio</h2>
-            <address class="footer-address">
-                <span class="footer-street">г. Киев, пр-т Леси Украинки, 26</span><br>
-                <span class="footer-mail-tel">info@example.com<br>
-                    +38 099 111 11 11</span>
-            </address>
+            <div class="footer-container">
+                <h2 class="footer-head"><span class="footer-web">Web</span>Studio</h2>
+                <ul class="footer-ul list">
+                    <li class="footer-address">г. Киев, пр-т Леси Украинки, 26</li>
+                    <li class="footer-contacts-mail">info@example.com</li>
+                    <li class="footer-contacts-tel">+38 099 111 11 11</li>
+                </ul>
+            </div>
         </section>
     </footer>
 
