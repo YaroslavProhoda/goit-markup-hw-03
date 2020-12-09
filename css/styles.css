@@ -22,7 +22,7 @@ html {
 }
 
 .body-page {
-  width: 1600px;
+  margin: 0;
   background-color: var(--bg-color);
   color: var(--primary-text-color);
   font-family: Roboto, "Times New Roman", Times, serif;
@@ -52,7 +52,7 @@ h6 {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -61,10 +61,26 @@ h6 {
 }
 
 .header-container {
-  min-height: 80px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.index-header {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-header {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-head {
@@ -169,9 +185,11 @@ h6 {
   display: flex;
   align-items: center;
   text-align: center;
-  width: 1600px;
+  width: 1200px;
   height: 600px;
   background-color: var(--background-hero-color);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
