@@ -12,8 +12,8 @@
 
 <body class="body-page">
     <!--Шапка-->
-    <header class="header">
-        <div class="container">
+    <header class=" container">
+        <div class="header-container">
             <a href="./index.html" class="logo-link">
                 <h1 class="logo-head "><span class="logo-web">Web</span>Studio</h1>
             </a>
@@ -30,86 +30,91 @@
                     </li>
                 </ul>
             </nav>
-            <ul class="header-address list">
-                <li class="address-li-mail">
-                    <a href="mailto:info@devstudio.com" class="address-mail">info@devstudio.com</a>
-                </li>
-                <li class="address-li-tel">
-                    <a href="tel:+380961111111" class="address-tel">+38 096 111 11 11</a>
-                </li>
-            </ul>
+            <div class="address-container">
+                <ul class="header-address list">
+                    <li class="address-li-mail">
+                        <a href="mailto:info@devstudio.com" class="address-mail">info@devstudio.com</a>
+                    </li>
+                    <li class="address-li-tel">
+                        <a href="tel:+380961111111" class="address-tel">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <!--Основа-->
     <main>
         <!-- Фильтры -->
-        <section class="filters-section">
+
+        <section class="container">
+            <h2 class="hidden-head list">Фильтры</h2>
             <div class="filters-container">
-                <h2><span class="hidden-head">Фильтры</span></h2>
-                <button class="button secondary">Все</button>
-                <button class="button secondary">Веб-сайт</button>
-                <button class="button secondary">Приложения</button>
-                <button class="button secondary">Дизайн</button>
-                <button class="button secondary">Маркетинг</button>
+                <button class="button secondary filters-button1">Все</button>
+                <button class="button secondary filters-button2">Веб-сайт</button>
+                <button class="button secondary filters-button3">Приложения</button>
+                <button class="button secondary filters-button4">Дизайн</button>
+                <button class="button secondary filters-button5">Маркетинг</button>
             </div>
         </section>
 
-        <section class="our-works">
-            <h2 class="our-works-title">Наши работы</h2>
-            <ul class="our-works-ul list">
-                <li>
-                    <img src="images/img4.jpg" alt="Веб-сайт на ноутбуке" width="370">
-                    <h2 class="work-cards">Технокряк</h2>
-                    <p class="work-text">Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="images/img5.jpg" alt="Два баскетболиста с мячем" width="370">
-                    <h2 class="work-cards">Постер New Orlean vs Golden Star</h2>
-                    <p class="work-text">Дизайн</p>
-                </li>
-                <li>
-                    <img src="images/img6.jpg" alt="Рыба с логотипом" width="370">
-                    <h2 class="work-cards">Ресторан Seafood</h2>
-                    <p class="work-text">Приложение</p>
-                </li>
-                <li>
-                    <img src="images/img7.jpg" alt="Наушники" width="370">
-                    <h2 class="work-cards">Проект Prime</h2>
-                    <p class="work-text">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="images/img8.jpg" alt="Две коробки, коричневая и белая" width="370">
-                    <h2 class="work-cards">Проект Boxes</h2>
-                    <p class="work-text">Приложение</p>
-                </li>
-                <li>
-                    <img src="images/img9.jpg" alt="Веб-сайт на мониторе" width="370">
-                    <h2 class="work-cards">Inspiration has no Borders</h2>
-                    <p class="work-text">Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="images/img10.jpg" alt="Раскрытая книга" width="370">
-                    <h2 class="work-cards">Издание Limited Edition</h2>
-                    <p class="work-text">Дизайн</p>
-                </li>
-                <li>
-                    <img src="images/img11.jpg" alt="Бирка с названием" width="370">
-                    <h2 class="work-cards">Проект LAB</h2>
-                    <p class="work-text">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="images/img12.jpg" alt="Нотбук с сайтом" width="370">
-                    <h2 class="work-cards">Growing Business</h2>
-                    <p class="work-text">Приложение</p>
-                </li>
-            </ul>
+        <section class="container">
+            <div class="cards-container">
+                <h2 class="hidden-head title">Наши работы</h2>
+                <ul class="our-works-ul list">
+                    <li class="cards-li">
+                        <img src="images/img4.jpg" alt="Веб-сайт на ноутбуке" width="370">
+                        <h2 class="cards-header">Технокряк</h2>
+                        <p class="cards-text">Веб-сайт</p>
+                    </li>
+                    <li class="cards-li">
+                        <img src="images/img5.jpg" alt="Два баскетболиста с мячем" width="370">
+                        <h2 class="cards-header">Постер New Orlean vs Golden Star</h2>
+                        <p class="cards-text">Дизайн</p>
+                    </li>
+                    <li class="cards-li">
+                        <img src="images/img6.jpg" alt="Рыба с логотипом" width="370">
+                        <h2 class="cards-header">Ресторан Seafood</h2>
+                        <p class="cards-text">Приложение</p>
+                    </li>
+                    <li class="cards-li">
+                        <img src="images/img7.jpg" alt="Наушники" width="370">
+                        <h2 class="cards-header">Проект Prime</h2>
+                        <p class="cards-text">Маркетинг</p>
+                    </li>
+                    <li class="cards-li">
+                        <img src="images/img8.jpg" alt="Две коробки, коричневая и белая" width="370">
+                        <h2 class="cards-header">Проект Boxes</h2>
+                        <p class="cards-text">Приложение</p>
+                    </li>
+                    <li class="cards-li">
+                        <img src="images/img9.jpg" alt="Веб-сайт на мониторе" width="370">
+                        <h2 class="cards-header">Inspiration has no Borders</h2>
+                        <p class="cards-text">Веб-сайт</p>
+                    </li>
+                    <li class="cards-li">
+                        <img src="images/img10.jpg" alt="Раскрытая книга" width="370">
+                        <h2 class="cards-header">Издание Limited Edition</h2>
+                        <p class="cards-text">Дизайн</p>
+                    </li>
+                    <li class="cards-li">
+                        <img src="images/img11.jpg" alt="Бирка с названием" width="370">
+                        <h2 class="cards-header">Проект LAB</h2>
+                        <p class="cards-text">Маркетинг</p>
+                    </li>
+                    <li class="cards-li">
+                        <img src="images/img12.jpg" alt="Нотбук с сайтом" width="370">
+                        <h2 class="cards-header">Growing Business</h2>
+                        <p class="cards-text">Приложение</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
 
     </main>
 
     <!--Подвал-->
-    <footer class="footer">
+    <footer class="container footer">
         <section class="footer-section">
             <div class="footer-container">
                 <h2 class="footer-head"><span class="footer-web">Web</span>Studio</h2>
