@@ -507,6 +507,10 @@ h6 {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
+  width: 322px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
   line-height: 2;
 }
 
@@ -517,6 +521,10 @@ h6 {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
+  width: 322px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4px;
 }
 
 .cards-container .our-works-ul {
